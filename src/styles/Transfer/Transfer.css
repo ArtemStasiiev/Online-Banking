@@ -1,0 +1,29 @@
+.Transfer {
+    background-color: rgb(75, 75, 75);
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.Transfer__Left-Con,
+.Transfer__Right-Con {
+    width: 49%;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .Transfer {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 1400px;
+    }
+    .Transfer__Left-Con,
+    .Transfer__Right-Con {
+    width: 100%;
+    }
+    .Transfer__Right-Con {
+        height: 40%;
+        /* border: 1px solid red; */
+    }
+}

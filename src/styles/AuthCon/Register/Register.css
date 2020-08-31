@@ -1,0 +1,115 @@
+.RegisterForm {
+    width: 30%;
+    /* height: 65%; */
+    border: 3px solid white;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px 10px gray; */
+    /* display: none; */
+}
+
+.RegisterFormHeader {
+    /* border: 1px solid white; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.RegisterIconCon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid salmon; */
+    height: 80%;
+    width: 70%;
+}
+
+.RegisterIcon {
+    font-size: 60px;
+}
+
+.RegisterIconCon div  {
+    font-size: 60px;
+    color: rgb(97, 253, 80);
+    font-weight: bold;
+    /* border: 1px solid black; */
+}
+
+.RegisterInputCon {
+    /* border: 1px solid red; */
+    height: 65%;
+    padding: 10px;
+}
+
+.RegisterNameCon,
+.RegisterEmailCon,
+.RegisterPasswordCon {
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+
+.Warning {
+    color: salmon;
+    font-size: 14px;
+}
+
+.RegisterNameInp,
+.RegisterEmailInp,
+.RegisterPasswordInp {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: rgb(97, 253, 80);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.RegisterNameInp {
+    text-transform: capitalize;
+}
+
+.RegisterRegBtnCon {
+    /* height: 20%; */
+    height: 60px;
+    /* border: 1px solid red;   */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.RegisterRegBtnCon button {
+    width: 95%;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(97, 253, 80);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    /* color: white; */
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+.RegisterQuestionCon {
+    /* height: 20%; */
+    /* height: 20px; */
+    /* border: 1px solid red; */
+    padding: 10px 0 20px 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.LoginLink {
+    color: rgb(255, 250, 78);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.InputError {
+    border: 3px solid red;
+}

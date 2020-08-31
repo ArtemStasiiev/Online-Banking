@@ -1,0 +1,55 @@
+.Spending-Breakdown-Info {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Spending-Breakdown-Info__Item {
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid salmon; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.Spending-Breakdown-Info__Item:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.Spending-Breakdown-Info__Name {
+    display: flex;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+}
+
+.Spending-Breakdown-Info__Icon-Con {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid black; */
+}
+
+.Spending-Breakdown-Info__Icon-Con div {
+    width: 50px;
+    height: 50px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Spending-Breakdown-Info__Item-Name {
+    width: 100px;
+    height: 50px;
+    /* border: 1px solid green; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 10px;
+}
+
+.Spending-Breakdown-Info__Item-Price {
+    margin-right: 10px;
+}

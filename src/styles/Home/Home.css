@@ -1,0 +1,30 @@
+.Home {
+    background-color: rgb(75, 75, 75);
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.Home__Left-Con,
+.Home__Right-Con  {
+    width: 49%;
+    height: 100%;
+    /* border: 1px solid white; */
+}
+
+@media screen and (max-width: 800px) {
+    .Home {
+        /* background-color: red; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        height: 1500px;
+        /* width: 96%; */
+    }
+    .Home__Left-Con,
+    .Home__Right-Con {
+        /* height: 30%; */
+        width: 100%;
+    }
+}

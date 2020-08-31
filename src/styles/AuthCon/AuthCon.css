@@ -1,0 +1,9 @@
+.Auth {
+    /* color: red; */
+    height: 750px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: none; */
+}

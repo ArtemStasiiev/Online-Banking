@@ -1,0 +1,103 @@
+.Payments {
+    height: 100%;
+    /* border: 2px solid black; */
+    /* font-size: 16px; */
+    /* font-weight: bold; */
+}
+
+.Payments-Con {
+    width: 100%;
+    height: 60%;
+    /* height: 10px; */
+    /* border: 1px solid red; */
+}
+
+.Payments-Con__Items {
+    width: 100%;
+    height: 87%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TabList {
+    list-style-type: none;
+}
+
+.Payments-Con__Tab-List {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid white; */
+    list-style-type: none;
+
+}
+
+.Payments-Con__Tab {
+    width: 120px;
+    height: 120px;
+    /* width: 20%;
+    height: 30%; */
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.Payments-Con__Icon-Con {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.Payments-Con__Icon-Con div {
+    width: 50%;
+    height: 70%;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.Payments-Con__Icons {
+    font-size: 25px;
+}
+
+.Payments-Con__Name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    text-align: center;
+    height: 20%;
+}
+
+.Send-Money-Transfer {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Send-Money-Transfer__Con{
+    height: 70%;
+    width: 90%;
+}
+
+@media screen and (max-width: 800px) {
+    .Payments-Con__Tab-List {
+        width: 95%;
+    }
+    .Payments-Con {
+        height: 50%;
+    }
+}

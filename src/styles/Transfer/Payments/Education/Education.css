@@ -1,0 +1,55 @@
+.Education__Top-Con,
+.Education__Bottom-Con {
+    height: 85px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Education__Select1, 
+#Education__Select2,
+.Education__Sum-Inp {
+    width: 40%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    outline: none;
+    color: white;
+    padding: 5px;
+}
+
+.Education__Btn {
+    width: 40%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .Education__Top-Con,
+    .Education__Bottom-Con {
+        height: 150px;
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #Education__Select1, 
+    #Education__Select2,
+    .Education__Sum-Inp {
+        width: 80%;
+        height: 50px;
+        padding: 10px;
+        font-size: 17px;
+    }
+    .Education__Btn {
+        width: 50%;
+        height: 50px;
+        font-size: 17px;
+    }
+}

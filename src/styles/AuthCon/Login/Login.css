@@ -1,0 +1,102 @@
+.LoginForm {
+    width: 30%;
+    /* height: 55%; */
+    border: 3px solid white;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px 10px gray; */
+    /* display: none; */
+}
+
+.LoginFormHeader {
+    height: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginIconCon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid salmon; */
+    height: 80%;
+    width: 50%;
+}
+
+.LoginIcon {
+    font-size: 60px;
+}
+
+.LoginIconCon div  {
+    font-size: 60px;
+    color: rgb(255, 250, 78);
+    font-weight: bold;
+    /* border: 1px solid black; */
+}
+
+.LoginInputCon {
+    height: 55%;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+
+.LoginEmailCon,
+.LoginPasswordCon {
+    padding: 10px;
+}
+
+.LoginEmailInp,
+.LoginPasswordInp {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: rgb(253, 245, 4);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.LoginLogBtnCon {
+    height: 60px;
+    /* border: 1px solid red;   */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.LoginLogBtnCon button {
+    width: 95%;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(255, 250, 78);
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    /* color: white; */
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+
+.LoginQuestionCon {
+    height: 10%;
+    /* border: 1px solid red; */
+    padding: 10px 0 20px 20px;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.RegisterLink {
+    color: rgb(97, 253, 80);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.Warning {
+    color: red;
+}

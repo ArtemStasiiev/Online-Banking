@@ -1,0 +1,45 @@
+.Expenses-Income {
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    /* border: 1px solid red; */
+}
+
+.Expenses,
+.Income {
+    width: 49%;
+}
+
+.Expenses__Sum,
+.Income__Sum {
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.Expenses__Sum span,
+.Income__Sum span {
+    margin-left: 10px;
+}
+
+.Expenses__Sum {
+    color: salmon;
+}
+
+.Income__Sum {
+    color: #1FFF71;
+}
+
+@media screen and (max-width: 800px) {
+    .Expenses__Sum,
+    .Income__Sum {
+        height: 60%;
+        /* border: 1px solid red; */
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,101 @@
+.Navbar-Con {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* display: none; */
+}
+
+.PayPal-Icon {
+    color: white;
+    font-size: 50px;
+}
+
+.Navbar {
+    height: 64px;
+    width: 96%;
+    background-color: rgb(75, 75, 75);
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 5px;
+}
+
+.Logo {
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Navbar-Items {
+    list-style: none;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+
+.Navbar-Item {
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    font-size: 10px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.Navbar-Items__Name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    height: 10%;
+}
+
+.Navbar-Items__Icon-Con {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+}
+
+.NavItems li:hover {
+    color: orange;
+}
+
+.AuthorizationIcon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .PayPal-Icon {
+        font-size: 35px;
+    }
+    .Navbar-Items {
+        width: 280px;
+    }
+    .Navbar-Item {
+        width: 40px;
+        height: 40px;
+    }
+    .Navbar-Items__Name {
+        display: none;
+    }
+    .Navbar-Items__Icon-Con {
+        height: 100%;
+    }
+}

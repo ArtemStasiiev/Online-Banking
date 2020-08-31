@@ -1,0 +1,61 @@
+.Internet__Top-Con,
+.Internet__Bottom-Con {
+    height: 85px;
+    /* height: 100px; */
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 50%; */
+}
+
+#Internet__Select, 
+.Internet__Requisites-Input,
+.Internet__Sum-Input {
+    width: 41%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    outline: none;
+    color: white;
+    padding: 5px;
+}
+
+#Internet__Select {
+    height: 35px;
+    width: 41%;
+}
+
+.Internet__Btn {
+    width: 41%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+        .Internet__Top-Con,
+        .Internet__Bottom-Con {
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #Internet__Select, 
+    .Internet__Requisites-Input,
+    .Internet__Sum-Input {
+        width: 80%;
+        height: 50px;
+        font-size: 17px;
+        padding: 10px;
+    }
+    .Internet__Btn {
+        width: 50%;
+        height: 50px;
+        font-size: 17px;
+    }
+}

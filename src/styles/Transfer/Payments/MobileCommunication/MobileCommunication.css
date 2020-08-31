@@ -1,0 +1,72 @@
+.Mobile__Input1-Con,
+.Mobile__Input2-Con,
+.Mobile__Btn-Con {
+    height: 50px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mobile__Input1,
+.Mobile__Input2 {
+    width: 50%;
+    /* height: 50%; */
+    height: 35px;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+    padding: 5px;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.Mobile__Btn {
+    width: 30%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.Mobile__Form {
+    /* border: 1px solid red; */
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.Mobile__Inputs {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+        .Mobile__Input1-Con,
+        .Mobile__Input2-Con,
+        .Mobile__Btn-Con {
+        height: 70px;
+        /* border: 1px solid red; */
+    }
+        .Mobile__Input1,
+        .Mobile__Input2 {
+        width: 80%;
+        /* height: 50%; */
+        height: 50px;
+        padding: 10px;
+        font-size: 17px;
+    }
+    .Mobile__Btn {
+        width: 40%;
+        height: 50px;
+        font-size: 17px;
+    }
+}

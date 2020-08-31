@@ -1,0 +1,25 @@
+.Spending-Breakdown {
+    width: 100%;
+    height: 50%;
+}
+
+.Spending-Breakdown__Items {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Spending-Breakdown__Type {
+    margin-left: 10px;
+} 
+
+.Spending-Breakdown__Price {
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .Spending-Breakdown__Items {
+        font-size: 17px;
+    }
+}

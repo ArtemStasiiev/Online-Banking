@@ -1,0 +1,21 @@
+.Spending-Info {
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid white; */
+}
+
+.Spending-Info__Sum {
+    width: 100%;
+    height: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #13FFDD;
+}
+
+.Spending-Info__Sum span {
+    margin-left: 10px;
+}
